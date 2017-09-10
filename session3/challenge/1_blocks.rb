@@ -5,8 +5,6 @@
 
 def reverse_map(*arr, &block)
 		arr.reverse.map(&block)
-
-		
 end
 
 reverse_map(1, 2, 3) { |i| i * 2 } 
